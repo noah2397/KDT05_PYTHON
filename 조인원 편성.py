@@ -52,13 +52,10 @@ def print_teams(team_membership, members):
         print(f"팀{i} : {team}")
 
 def main():
-<<<<<<< HEAD
+
     members = ["ㄱㅇㅇ", "ㄱㅎㅇ", "ㅂㅎㅈ", "ㄱㅇㅅ", "ㄱㅁㅅ", "ㅇㅎㅇ" "ㅇㅅㅁ", "ㄱㄱㄹ", "ㅇㅅㅇ", "ㅇㅅㅁ",
                "ㅂㅈㅇ", "ㅅㅇㄹ", "ㅇㅎㅇ", "ㅇㅅㅇ", "ㅇㅇㅅ", "ㅈㅈㅇ", "ㅇㅎㄱ", "ㅁㄴㅇ", "ㅇㅇㅅ", "ㄱㄷㅎ"]
-=======
-    members = ["권오영", "권혁원", "박희진", "고우석", "김문섭", "양현우", "이승민", "김규량", "우승연", "이시명",
-               "변주영", "손예림", "이화은", "임소영", "이윤서", "전진우", "이현길", "명노아", "옥영신", "김동현"]
->>>>>>> 023855b407d86af06b30773cd14f63c400f9806a
+
     adjacency_matrix = dok_matrix((n_players, n_players), dtype=int)
     for i in range(n_players):
         for j in range(i + 1, n_players):
