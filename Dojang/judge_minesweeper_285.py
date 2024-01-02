@@ -1,3 +1,5 @@
+# 코딩도장 p.285 심사문제
+
 # col, row = map(int, input().split())
 # matrix=[]
 # for _ in range(row) :
