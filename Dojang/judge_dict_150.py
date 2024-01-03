@@ -23,6 +23,7 @@ print(dict_sum)
 '''
 
 #3번째 방법
+'''
 key_list=input().split()
 value_list=input().split()
 dict_sum=dict()
@@ -31,4 +32,4 @@ dict_sum[key_list[1]]=value_list[1]
 dict_sum[key_list[2]]=value_list[2]
 dict_sum[key_list[3]]=value_list[3]
 print(dict_sum)
-
+'''
