@@ -11,3 +11,11 @@ strNum=''
 for num in two :
     strNum+=str(num)
 print(strNum)
+#-------------------------------------------
+#리스트 안에 모든 원소를 str 타입으로 변환해서 저장
+#-------------------------------------------
+result=[]
+range(len(two))
+for idx in range(len(two)) :
+    result.append(str(two[idx]))
+print(result)
