@@ -21,3 +21,11 @@ name="Hong"
 job="학생"
 age1,name1,job1=12,'Hong',"학생"
 
+
+
+def myFunc(a,b) :
+    return a+b, a-b, a*b, a/b if not b else -1
+result=myFunc(10,3)
+print(f'덧셈결과 : {result[0]}, 뺄셈결과 : {result[1]}, 곱셈결과 : {result[2]}, 나눗셈결과 : {result[3]}')
+plus, minus, multi,div=myFunc(10,3)
+print(f'덧셈결과 : {plus}, 뺄셈결과 : {minus}, 곱셈결과 : {multi}, 나눗셈결과 : {div}')
