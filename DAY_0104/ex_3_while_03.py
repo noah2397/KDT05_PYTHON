@@ -46,6 +46,7 @@ while True :
     alpha_str=[chr(ord('a')+i) if i<=25 else " 종료" for i in range((int(num) if int(num)<=26 else 27)) ]
     print(('').join(alpha_str))
 print("종료입니다")
+'''
 
 while True :
     alpha_str, num="", input("출력 원하는 알파벳 수 입력 : ")
@@ -80,6 +81,7 @@ while n <100:
             break
         print(f"in -> {n2} ====> {n}번째")
     n+=1
+'''
 
 
 
