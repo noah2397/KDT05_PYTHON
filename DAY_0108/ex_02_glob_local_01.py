@@ -1,0 +1,40 @@
+#-------------------------------------------------
+# 전역변수(Global Variable)와 지역변수(Local Variable)
+# 전역변수 (Global Variable)
+#     -파이썬(py)파일에 존재하는 변수
+#     -파일 내부 모든 곳에서 사용 가능한 변수
+#     -파일 실행을 종료하면 메모리에서 사라짐
+# 지역변수(Local Variable)
+#     -함수에 존재하는 변수
+#     -함수에서만 사용 가능한 변수
+#     -함수가 종료되면 변수들은 메모리에서 사라짐
+#-------------------------------------------------
+
+# 사용자 정의 함수 -----------------------------------
+def currentDate(year,month,day) :
+    # year,month, day => 지역 변수
+    print(f"Today : {year}/{month:0>2}/{day:0>2}")
+
+def currentDate2(year,month,day) :
+    # month, day => 지역 변수
+    # year => 전역 변수
+    print(f"Today : {year}/{month:0>2}/{day:0>2}")
+
+def currentDate3(month,day,week) :
+    # month, day => 지역 변수
+    # year => 전역 변수
+    print(f"Today : {year}/{day:0>2}/{week}요일")
+
+
+# 전역 변수 --------------------------------------
+year,month,day=2024,1,8
+
+# 함수 사용 즉 함수 호출 -----------------------------
+currentDate3(month, day, "friday")
+
+# 변수 값 확인 출력 ----------------------------
+print(f'year : {year}, month : {month}, day : {day}')
+
+#print(f'week : {week}') # week변수는 currentData3의 지역변수로 쓰이기 때문에 밖에서 쓰일 수 없다
+
+
