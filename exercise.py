@@ -1,1 +1,5 @@
-#람다 표현식으로 매개변수가 없는 함수 만들기
+class Person:
+    pass
+class Student(Person):
+    pass
+print(issubclass(Student, Person))
