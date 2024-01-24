@@ -6,7 +6,7 @@
 
 > 2023. 12 27   
 >  > 파이썬기초-(1-1) : [Naver Blog Linnk](https://blog.naver.com/mathnoah/223304466872)   
->  > 파이썬기초-(1-2) : [Naver Blog Linnk](https://blog.naver.com/mathnoah/223304726310)>   
+>  > 파이썬기초-(1-2) : [Naver Blog Linnk](https://blog.naver.com/mathnoah/223304726310)   
 
 파이썬기초-(1-몰랐던 것들) : [Naver Blog Linnk](https://blog.naver.com/mathnoah/223304769676)   
 
