@@ -2,6 +2,14 @@
 ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)   
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)   
 
+
+### KDT(Korea Digital Training)-Python
+
+교재 : 파이썬코딩도장(남재윤, 길벗)  
+[교재 사이트](https://product.kyobobook.co.kr/detail/S000200678267) 
+
+<img src="https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791140702428.jpg" width=300, height=400><br>
+
  ### KDT(Korea Digital Training) 파이썬(Python)
 
 | 날짜 | 제목 | 링크 | DAY |
